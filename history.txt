@@ -1,0 +1,48 @@
+    1  java -version
+    2  sudo apt update
+    3  sudo apt install default-jdk
+    4  java -version
+    5  wget http://www-eu.apache.org/dist/spark/spark-2.3.4/spark-2.3.4-bin-hadoop2.7.tgz
+    6  wget https://downloads.apache.org/spark/spark-3.2.4/spark-3.2.4-bin-hadoop3.2.tgz
+    7  tar -zxvf spark-3.2.4-bin-hadoop3.2.tgz
+    8  ls
+    9  export SPARK_HOME=~/spark-3.2.4-bin-hadoop3.2
+   10  nano ~/.bashrc
+   11  source ~/.bashrc
+   12  cd spark-3.2.4-bin-hadoop3.2
+   13  ./sbin/start-master.sh
+   14  nano logs/spark-clarazhang0625-org.apache.spark.deploy.master.Master-1-spark.out
+   15  ./sbin/start-slave.sh  spark://spark.us-central1-a.c.solar-melody-349123.internal:7077
+   16  nano logs/spark-clarazhang0625-org.apache.spark.deploy.worker.Worker-1-spark.out
+   17  spark-shell
+   18  cd
+   19  spark-shell
+   20  nano spark-3.2.4-bin-hadoop3.2 /logs/spark-clarazhang0625-org.apache.spark.deploy.worker.Worker-1-spark.out
+   21  nano spark-3.2.4-bin-hadoop3.2/logs/spark-clarazhang0625-org.apache.spark.deploy.worker.Worker-1-spark.out
+   22  nano ~/.bashrc
+   23  cd hom
+   24  cd homw
+   25  cd home
+   26  cd home/
+   27  cd /home
+   28  ls
+   29  cd clarazhang0625
+   30  ls
+   31  cd
+   32  nano ~/.bashrc
+   33  source ~/.bashrc
+   34  spark-shell
+   35  cd /home/clarazhang0625/spark-3.2.4-bin-hadoop3.2
+   36  cd
+   37  cd /home/clarazhang0625/spark-3.2.4-bin-hadoop3.2
+   38  ./sbin/start-master.sh
+   39  spark-shell
+   40  cd
+   41  ls /home/clarazhang0625/spark-3.2.4-bin-hadoop3.2/bin
+   42  chmod +x /home/clarazhang0625/spark-3.2.4-bin-hadoop3.2/bin/*
+   43  /home/clarazhang0625/spark-3.2.4-bin-hadoop3.2/bin/spark-shell
+   44  nano file.txt
+   45  spark-shell
+   46  /home/clarazhang0625/spark-3.2.4-bin-hadoop3.2/bin/spark-shell
+   47  nano file.txt
+   48  history
